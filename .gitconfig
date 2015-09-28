@@ -1,0 +1,7 @@
+[alias]
+	br = branch
+	st = status
+	remotes = remote -v show
+	ch = checkout
+	lg = log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset'
+	ci = commit
